@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DJCrm</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+<div>
+<!--We tried adding navbar at the top level but it didn't work without div tag-->
+{% include 'navbar.html' %}
+{% block content %}
+    <!-- Put everything in here for other templates -->
+{% endblock content %}
+</div>
+</body>
+</html>
